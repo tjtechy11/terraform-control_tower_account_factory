@@ -1,5 +1,5 @@
 module "ctrlacct {
-  source = "https://github.com/tjtechy11/terraform-control_tower_account_factory.git"
+  source = "github.com/tjtechy11/terraform-control_tower_account_factory"
   account_name        = "New-AFT-Account"
   email               = "tjtechy5@gmail.com"
   organizational_unit = "ET"
