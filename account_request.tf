@@ -1,4 +1,4 @@
-module "ctrlacct {
+module "ctrlacct" {
   source = "github.com/tjtechy11/terraform-control_tower_account_factory"
   account_name        = "New-AFT-Account"
   email               = "tjtechy5@gmail.com"
