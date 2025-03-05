@@ -1,4 +1,5 @@
 module "ctrlacct {
+  source = "/module/aft-account-request-framework"
   account_name        = "New-AFT-Account"
   email               = "tjtechy5@gmail.com"
   organizational_unit = "ET"
